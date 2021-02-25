@@ -11,40 +11,40 @@ export default {
           {
             path: "/",
             name: "Home",
-            component: resolve(__dirname, "pages/Home"),
+            component: resolve(__dirname, "pages/Home/Index.vue"),
             default: true,
           },
           {
             path: "/edit",
             name: "Edit",
-            component: resolve(__dirname, "pages/Edit"),
+            component: resolve(__dirname, "pages/Edit/Index.vue"),
           },
           {
             path: "/settings",
             name: "Settings",
-            component: resolve(__dirname, "pages/Settings"),
+            component: resolve(__dirname, "pages/Settings/Index.vue"),
           },
           {
             path: "/login",
             name: "Login",
-            component: resolve(__dirname, "pages/Login"),
+            component: resolve(__dirname, "pages/Login/Index.vue"),
           },
           {
             path: "/register",
             name: "Register",
-            component: resolve(__dirname, "pages/Login"),
+            component: resolve(__dirname, "pages/Login/Index.vue"),
           },
           {
             path: "/article/:slug",
             name: "Article",
             props: true,
-            component: resolve(__dirname, "pages/Article"),
+            component: resolve(__dirname, "pages/Article/Index.vue"),
           },
           {
             name: "Profile",
             path: "/profile",
             props: true,
-            component: resolve(__dirname, "pages/Profile"),
+            component: resolve(__dirname, "pages/Profile/Index.vue"),
           },
         ],
       });
