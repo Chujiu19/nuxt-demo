@@ -46,7 +46,7 @@
                 :to="{
                   name: 'Profile',
                   query: {
-                    username: art.username,
+                    username: art.author.username,
                   },
                 }"
               >
